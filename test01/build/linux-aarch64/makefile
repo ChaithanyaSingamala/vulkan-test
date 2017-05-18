@@ -1,0 +1,55 @@
+PROJECT_NAME=Vulkan01
+
+PROJECT_OUTPUT_DIR = ../../bin/
+
+ifeq ($(GNUTOOL_PATH),)
+GNUTOOL_PATH = 
+endif
+
+ifeq ($(GNUTOOL_PREFIX),)
+GNUTOOL_PREFIX=aarch64-linux-gnu-
+endif
+
+SOURCE_PATH = ./../../source/
+
+C =  $(GNUTOOL_PATH)$(GNUTOOL_PREFIX)gcc
+CC = $(GNUTOOL_PATH)$(GNUTOOL_PREFIX)g++
+AR = $(GNUTOOL_PATH)$(GNUTOOL_PREFIX)as
+
+CFLAGS=-c -Wall -DLINUX -D_LINUX 
+
+EXTRA_CFLAGS = 	-I$(SOURCE_PATH)
+	      
+
+LDFLAGS=
+
+C_SOURCES=	
+
+CPP_SOURCES= $(SOURCE_PATH)common.cpp
+
+CPP_OBJECTS=$(CPP_SOURCES:.cpp=.o)
+
+C_OBJECTS=$(C_SOURCES:.c=.o)
+
+EXECUTABLE=$(PROJECT_OUTPUT_DIR)$(PROJECT_NAME)
+
+.PHONY: all
+
+all: $(SOURCES) $(EXECUTABLE)
+	
+$(EXECUTABLE): $(CPP_OBJECTS) $(C_OBJECTS) 
+	$(CC) $(LDFLAGS) $(CPP_OBJECTS) $(C_OBJECTS) -o $@
+
+.cpp.o:
+	$(CC) $(CFLAGS) $(EXTRA_CFLAGS) $< -o $@
+	
+.c.o:
+	$(C) $(CFLAGS) $(EXTRA_CFLAGS) $< -o $@	
+
+.PHONY: clean
+clean:
+	rm -f $(EXECUTABLE) $(OBJECTS)
+	rm $(SOURCE_PATH)/*.o
+
+	
+

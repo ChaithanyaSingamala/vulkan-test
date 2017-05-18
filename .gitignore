@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+/test01/build/windows/.vs/vulkan01/v14
+/test01/build/windows/Debug
+/test01/build/windows/vulkan01.VC.VC.opendb
+/test01/build/windows/vulkan01.VC.db
