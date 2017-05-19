@@ -34,3 +34,16 @@
 /test01/build/windows/Debug
 /test01/build/windows/vulkan01.VC.VC.opendb
 /test01/build/windows/vulkan01.VC.db
+/test02/build/windows/.vs/vulkan02/v14/*.suo
+*.idb
+*.pdb
+*.tlog
+*.ilk
+/test02/build/windows/Debug/vulkan01.log
+/test02/build/windows/Debug
+*.db
+*.suo
+/test03/build/windows/x64/Debug
+/test04/build/windows/*.opendb
+/test04/build/windows/x64/Debug
+/test03/build/windows/Debug/vulkan03.log

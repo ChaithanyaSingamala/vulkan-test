@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\source\VulkanDevice.hpp" />
+    <ClInclude Include="..\..\source\vulkanexamplebase.h" />
+    <ClInclude Include="..\..\source\VulkanFrameBuffer.hpp" />
+    <ClInclude Include="..\..\source\VulkanHeightmap.hpp" />
+    <ClInclude Include="..\..\source\VulkanInitializers.hpp" />
+    <ClInclude Include="..\..\source\VulkanModel.hpp" />
+    <ClInclude Include="..\..\source\VulkanTextOverlay.hpp" />
+    <ClInclude Include="..\..\source\VulkanTexture.hpp" />
+    <ClInclude Include="..\..\source\VulkanTools.h" />
+    <ClInclude Include="..\..\source\camera.hpp" />
+    <ClInclude Include="..\..\source\frustum.hpp" />
+    <ClInclude Include="..\..\source\keycodes.hpp" />
+    <ClInclude Include="..\..\source\threadpool.hpp" />
+    <ClInclude Include="..\..\source\vulkanandroid.h" />
+    <ClInclude Include="..\..\source\VulkanBuffer.hpp" />
+    <ClInclude Include="..\..\source\VulkanDebug.h" />
+    <ClInclude Include="..\..\source\VulkanSwapChain.hpp" />
+    <ClInclude Include="..\..\source\vulkangear.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\vulkanexamplebase.cpp" />
+    <ClCompile Include="..\..\source\VulkanTools.cpp" />
+    <ClCompile Include="..\..\source\vulkandebug.cpp" />
+    <ClCompile Include="..\..\source\gears.cpp" />
+    <ClCompile Include="..\..\source\vulkangear.cpp" />
+  </ItemGroup>
+</Project>

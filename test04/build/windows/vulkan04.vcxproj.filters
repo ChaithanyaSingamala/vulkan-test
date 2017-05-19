@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\source\camera.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\frustum.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\keycodes.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\threadpool.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\vulkanandroid.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VulkanBuffer.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VulkanDebug.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VulkanDevice.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\vulkanexamplebase.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VulkanFrameBuffer.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VulkanHeightmap.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VulkanInitializers.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VulkanModel.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VulkanSwapChain.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VulkanTextOverlay.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VulkanTexture.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\VulkanTools.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\vulkanchromedemo.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\vulkandebug.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\vulkanexamplebase.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\VulkanTools.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\externals\include\assimp_src\Importer.cpp">
+      <Filter>assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\externals\include\assimp_src\ProcessHelper.cpp">
+      <Filter>assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\externals\include\assimp_src\SceneCombiner.cpp">
+      <Filter>assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\externals\include\assimp_src\ScenePreprocessor.cpp">
+      <Filter>assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\externals\include\assimp_src\SpatialSort.cpp">
+      <Filter>assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\externals\include\assimp_src\ValidateDataStructure.cpp">
+      <Filter>assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\externals\include\assimp_src\Assimp.cpp">
+      <Filter>assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\externals\include\assimp_src\BaseImporter.cpp">
+      <Filter>assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\externals\include\assimp_src\BaseProcess.cpp">
+      <Filter>assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\externals\include\assimp_src\DefaultIOStream.cpp">
+      <Filter>assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\externals\include\assimp_src\DefaultIOSystem.cpp">
+      <Filter>assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\externals\include\assimp_src\DefaultLogger.cpp">
+      <Filter>assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\externals\include\assimp_src\Version.cpp">
+      <Filter>assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\externals\include\assimp_src\ImporterRegistry.cpp">
+      <Filter>assimp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="assimp">
+      <UniqueIdentifier>{fc10adca-6d78-4e12-9081-f52c2c5bd238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{9f928f80-2a34-476c-98ea-788843d0ffbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
